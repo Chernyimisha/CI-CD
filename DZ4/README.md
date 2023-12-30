@@ -19,14 +19,14 @@ smoke-test-job:
 ```yaml
 include:
   - local: local-smoke-tests.gitlab-ci.yml
-  - remote: https://github.com/Valinetsky/-CI-CD_Seminar04/blob/main/remote-included-file.yml
+  - remote: https://raw.github.com/Chernyimisha/CI-CD/main/DZ4/remote_included-file.yml
 ```
 
 Repository Seminar04
-![repository](img/VirtualBox_cibox_04_12_2023_19_02_47.png "repository")
+![repository](img/2023-12-30_16-26-05.png "repository")
 
 Remote included file job
-![remote included file job](img/VirtualBox_cibox_04_12_2023_19_10_01.png "remote included file job")
+![remote included file job](img/2023-12-30_16-58-39.png "remote included file job")
 
 Pipeline passed
-![pipeline passed](img/VirtualBox_cibox_04_12_2023_19_10_34.png "pipeline passed")
+![pipeline passed](img/2023-12-30_16-59-04.png "pipeline passed")
